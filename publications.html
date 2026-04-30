@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications — Dr. Alex Chen</title>
+    <title>Publications — Dr. Weinan Wang</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-brand">
-            <a href="index.html">Dr. Alex Chen</a>
+            <a href="index.html">Dr. Weinan Wang</a>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">About</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="background.html">Background</a></li>
             <li><a href="publications.html" class="active">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <button class="nav-toggle" aria-label="toggle navigation">
@@ -35,119 +36,103 @@
             <div class="container">
                 <div class="pub-filters">
                     <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="mlsys">ML Systems</button>
-                    <button class="filter-btn" data-filter="distributed">Distributed</button>
-                    <button class="filter-btn" data-filter="swe">Software Eng</button>
+                    <button class="filter-btn" data-filter="bioinfo">Bioinformatics</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
                 </div>
 
                 <div class="publications-list">
-                    <article class="publication" data-category="mlsys distributed">
-                        <div class="pub-badge">Best Paper</div>
-                        <h3 class="pub-title">ElasticTrain: Dynamic Resource Scaling for Distributed Deep Learning</h3>
-                        <p class="pub-authors">Alex Chen, Wei Zhang, Sarah Johnson, and Raj Patel</p>
-                        <p class="pub-venue">Proceedings of the 29th ACM Symposium on Operating Systems Principles (<strong>SOSP 2025</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">The Adrenal Stress Response Is an Essential Host Response Against Therapy-Induced Lethal Immune Activation</h3>
+                        <p class="pub-authors">Liang Guo, Weinan Wang, Qing Wang, Dongmei Hao, Motomi Ito, Baohong Huang, ... &amp; Xiao A. Li</p>
+                        <p class="pub-venue"><strong>Science Signaling</strong>, 2023, 16(777): eadd4900</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
-                            <a href="#" class="pub-link">Slides</a>
+                            <a href="https://doi.org/10.1126/scisignal.add4900" class="pub-link" target="_blank" rel="noopener">DOI</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="mlsys">
-                        <h3 class="pub-title">FlashServe: Sub-millisecond Latency Inference for Transformer Models</h3>
-                        <p class="pub-authors">Mohammed Ali, Alex Chen, and Yuki Tanaka</p>
-                        <p class="pub-venue">Proceedings of Machine Learning and Systems (<strong>MLSys 2025</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">A Critical Role of RUNX1 in Governing Megakaryocyte-Primed Hematopoietic Stem Cell Differentiation</h3>
+                        <p class="pub-authors">Chen Wang, Zhengqi Tu, Xiongbin Cai, Weiran Wang, Amanda K. Davis, Kalpana Nattamai, ... &amp; Yi Zheng</p>
+                        <p class="pub-venue"><strong>Blood Advances</strong>, 2023, 7(11): 2590–2605</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
+                            <a href="https://doi.org/10.1182/bloodadvances.2022008591" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/36661340/" class="pub-link" target="_blank" rel="noopener">PubMed</a>
+                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10250926/" class="pub-link" target="_blank" rel="noopener">PDF</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="distributed">
-                        <h3 class="pub-title">CodedShuffle: Communication-Efficient Data Shuffling for Distributed SGD</h3>
-                        <p class="pub-authors">Liu Wei, Anna Brown, Alex Chen, and Tom Anderson</p>
-                        <p class="pub-venue">IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS 2024</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">Tumor Microenvironment-Derived R-spondins Enhance Antitumor Immunity to Suppress Tumor Growth and Sensitize for Immune Checkpoint Blockade</h3>
+                        <p class="pub-authors">Yuting Tang, Qian Xu, Liang Hu, Xiaomei Yan, Xiaomin Feng, Asumi Yokota, Weinan Wang, Di Zhan, Durga Krishnamurthy, David E. Ochayon, ... &amp; Gang Huang</p>
+                        <p class="pub-venue"><strong>Cancer Discovery</strong>, 2021, 11(12): 3142–3157</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
+                            <a href="https://doi.org/10.1158/2159-8290.CD-21-0281" class="pub-link" target="_blank" rel="noopener">DOI</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="swe">
-                        <h3 class="pub-title">AutoCheck: Property-Based Testing for Distributed Systems</h3>
-                        <p class="pub-authors">Emily Davis, Alex Chen, and Priya Sharma</p>
-                        <p class="pub-venue">Proceedings of the 46th ACM/IEEE International Conference on Software Engineering (<strong>ICSE 2024</strong>)</p>
+                    <article class="publication" data-category="ml">
+                        <h3 class="pub-title">An Interpretation of Convolutional Neural Networks for Motif Finding from the View of Probability</h3>
+                        <p class="pub-authors">Weinan Wang<sup>†</sup>, Yuhang Guo, Wei Ju, Xiao Luo, and Minghua Deng</p>
+                        <p class="pub-venue">Proceedings of the 2021 IEEE 33rd International Conference on Tools with Artificial Intelligence (<strong>ICTAI 2021</strong>), pp. 176–183</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
+                            <a href="https://ieeexplore.ieee.org/document/9643409/" class="pub-link" target="_blank" rel="noopener">IEEE</a>
+                            <a href="https://doi.org/10.1109/ICTAI52525.2021.00032" class="pub-link" target="_blank" rel="noopener">DOI</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="mlsys distributed">
-                        <h3 class="pub-title">HydroScale: Elastic GPU Clusters for Deep Learning Workloads</h3>
-                        <p class="pub-authors">Alex Chen, James Wilson, and Michael Chen</p>
-                        <p class="pub-venue">Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation (<strong>NSDI 2024</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">Deep Soft K-means Clustering with Self-Training for Single-Cell RNA Sequence Data</h3>
+                        <p class="pub-authors">Liang Chen, Weinan Wang<sup>†</sup>, Yuyao Zhai, and Minghua Deng</p>
+                        <p class="pub-venue"><strong>NAR Genomics and Bioinformatics</strong>, 2020, 2(2): lqaa039</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
-                            <a href="#" class="pub-link">Slides</a>
+                            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7671315/" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                            <a href="https://github.com/xuebaliang/scziDesk" class="pub-link" target="_blank" rel="noopener">Code</a>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/33575592/" class="pub-link" target="_blank" rel="noopener">PubMed</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="mlsys">
-                        <h3 class="pub-title">Memory-Efficient Training of Large Neural Networks via Activation Compression</h3>
-                        <p class="pub-authors">Lisa Wong, Liu Wei, and Alex Chen</p>
-                        <p class="pub-venue">Advances in Neural Information Processing Systems 36 (<strong>NeurIPS 2023</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">Integrating Deep Supervised, Self-Supervised and Unsupervised Learning for Single-Cell RNA-seq Clustering and Annotation</h3>
+                        <p class="pub-authors">Liang Chen, Yuyao Zhai, Qin He, Weinan Wang, and Minghua Deng</p>
+                        <p class="pub-venue"><strong>Genes</strong> (MDPI), 2020, 11(7): 792</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
+                            <a href="https://www.mdpi.com/2073-4425/11/7/792" class="pub-link" target="_blank" rel="noopener">PDF</a>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/32664642/" class="pub-link" target="_blank" rel="noopener">PubMed</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="distributed">
-                        <h3 class="pub-title">Fault-Tolerant All-Reduce for Large-Scale Training Clusters</h3>
-                        <p class="pub-authors">Raj Patel, Alex Chen, and Yuki Tanaka</p>
-                        <p class="pub-venue">Proceedings of the 28th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (<strong>PPoPP 2023</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">Single-Cell Transcriptome Data Clustering via Multinomial Modeling and Adaptive Fuzzy K-means Algorithm</h3>
+                        <p class="pub-authors">Liang Chen, Weinan Wang, Yuyao Zhai, and Minghua Deng</p>
+                        <p class="pub-venue"><strong>Frontiers in Genetics</strong>, 2020, 11: 295</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
+                            <a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00295" class="pub-link" target="_blank" rel="noopener">PDF</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="swe">
-                        <h3 class="pub-title">VeriML: Formal Verification of Distributed ML Training Pipelines</h3>
-                        <p class="pub-authors">Alex Chen and Emily Davis</p>
-                        <p class="pub-venue">Proceedings of the 35th IEEE International Symposium on Software Reliability Engineering (<strong>ISSRE 2023</strong>)</p>
+                    <article class="publication" data-category="ml">
+                        <h3 class="pub-title">A Comprehensive Exploration of Semantic Relation Extraction via Pre-trained CNNs</h3>
+                        <p class="pub-authors">Qian Li, Linxin Li, Weinan Wang, Qian Li, and Jianmin Zhong</p>
+                        <p class="pub-venue"><strong>Knowledge-Based Systems</strong>, 2020, 194: 105488</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
+                            <a href="https://doi.org/10.1016/j.knosys.2020.105488" class="pub-link" target="_blank" rel="noopener">DOI</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
 
-                    <article class="publication" data-category="mlsys distributed">
-                        <div class="pub-badge">Invited</div>
-                        <h3 class="pub-title">The Future of ML Infrastructure: Challenges and Opportunities</h3>
-                        <p class="pub-authors">Alex Chen</p>
-                        <p class="pub-venue">Communications of the ACM (<strong>CACM 2022</strong>)</p>
+                    <article class="publication" data-category="bioinfo">
+                        <h3 class="pub-title">RUNX1 Mutation Leads to Megakaryocyte-Primed Hematopoietic Stem Cell Expansion and Familial Platelet Disorder</h3>
+                        <p class="pub-authors">Chen Wang, Weinan Wang, Lan Huang, Yuki Hayashi, Xiongbin Cai, Xiaomei Yan, ... &amp; Yi Zheng</p>
+                        <p class="pub-venue"><strong>Blood</strong>, 2020, 136: 8–9</p>
                         <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">BibTeX</a>
-                        </div>
-                    </article>
-
-                    <article class="publication" data-category="distributed">
-                        <h3 class="pub-title">ParSched: Parallel Task Scheduling for Heterogeneous Clusters</h3>
-                        <p class="pub-authors">James Wilson, Alex Chen, and Michael Chen</p>
-                        <p class="pub-venue">Proceedings of the 19th European Conference on Computer Systems (<strong>EuroSys 2022</strong>)</p>
-                        <div class="pub-links">
-                            <a href="#" class="pub-link">PDF</a>
-                            <a href="#" class="pub-link">Code</a>
+                            <a href="https://doi.org/10.1182/blood.2020005195" class="pub-link" target="_blank" rel="noopener">DOI</a>
                             <a href="#" class="pub-link">BibTeX</a>
                         </div>
                     </article>
@@ -158,12 +143,10 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Dr. Alex Chen. All rights reserved.</p>
+            <p>&copy; 2026 Dr. Weinan Wang. All rights reserved.</p>
             <div class="footer-links">
-                <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
-                <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+                <a href="https://scholar.google.com/citations?user=A6I9vhQAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+                <a href="https://github.com/wwn7268/" target="_blank" rel="noopener">GitHub</a>
             </div>
         </div>
     </footer>
