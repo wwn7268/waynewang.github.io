@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Alex Chen — Personal Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">Dr. Alex Chen</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">About</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Dr. Alex Chen</h1>
+                <p class="subtitle">Associate Professor of Computer Science</p>
+                <p class="affiliation">School of Information Technology · Example University</p>
+                <div class="hero-actions">
+                    <a href="publications.html" class="btn btn-primary">View Publications</a>
+                    <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="photo-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                    <span>Your Photo</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I am an Associate Professor in the School of Information Technology at Example University.
+                            My research focuses on machine learning systems, distributed computing, and software engineering.
+                            I am particularly interested in building efficient, reliable, and scalable systems that bridge
+                            the gap between cutting-edge AI algorithms and real-world deployment.
+                        </p>
+                        <p>
+                            Before joining Example University, I was a Postdoctoral Researcher at the Institute of Advanced
+                            Computing, and I received my Ph.D. in Computer Science from Tech University in 2018.
+                            My work has been recognized with the NSF CAREER Award and best paper awards at leading venues.
+                        </p>
+                        <p>
+                            I am always looking for motivated students to join my research group. If you are interested
+                            in systems and machine learning, please feel free to reach out.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <span class="highlight-number">50+</span>
+                            <span class="highlight-label">Publications</span>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-number">12</span>
+                            <span class="highlight-label">Years Teaching</span>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-number">8</span>
+                            <span class="highlight-label">Ph.D. Students</span>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-number">$2.1M</span>
+                            <span class="highlight-label">Research Funding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Research Interests</h2>
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Machine Learning Systems</h3>
+                        <p>Designing efficient training and inference frameworks for large-scale models, including distributed training, model compression, and hardware-aware optimization.</p>
+                    </div>
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24"/>
+                                <path d="M23 12h-6m-6 0H1m20.07-4.93l-4.24 4.24M6.34 6.34L2.1 2.1"/>
+                            </svg>
+                        </div>
+                        <h3>Distributed Computing</h3>
+                        <p>Building fault-tolerant and high-performance distributed systems for data-intensive applications, with focus on scheduling, resource management, and consistency.</p>
+                    </div>
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3>Software Engineering</h3>
+                        <p>Investigating program analysis, testing, and verification techniques to improve the reliability and maintainability of complex software systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2013 — 2018</span>
+                            <h3>Ph.D. in Computer Science</h3>
+                            <p class="timeline-institution">Tech University</p>
+                            <p class="timeline-detail">Dissertation: "Scalable Systems for Distributed Machine Learning Training"</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2011 — 2013</span>
+                            <h3>M.S. in Computer Engineering</h3>
+                            <p class="timeline-institution">State University</p>
+                            <p class="timeline-detail">Thesis: "Performance Optimization Techniques for Concurrent Data Structures"</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2007 — 2011</span>
+                            <h3>B.S. in Computer Science</h3>
+                            <p class="timeline-institution">University of Science and Technology</p>
+                            <p class="timeline-detail">Graduated with Highest Honors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Associate Professor</h3>
+                            <span class="experience-date">2022 — Present</span>
+                        </div>
+                        <p class="experience-org">Example University, School of Information Technology</p>
+                        <p>Leading the Efficient Systems Research Lab. Teaching graduate and undergraduate courses in systems and machine learning.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Assistant Professor</h3>
+                            <span class="experience-date">2018 — 2022</span>
+                        </div>
+                        <p class="experience-org">Example University, School of Information Technology</p>
+                        <p>Established research program in ML systems. Secured NSF CAREER Award and multiple industry grants.</p>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Postdoctoral Researcher</h3>
+                            <span class="experience-date">2017 — 2018</span>
+                        </div>
+                        <p class="experience-org">Institute of Advanced Computing</p>
+                        <p>Worked on large-scale graph processing systems and distributed training frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dr. Alex Chen. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+                <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

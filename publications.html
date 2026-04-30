@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications — Dr. Alex Chen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">Dr. Alex Chen</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="publications.html" class="active">Publications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Publications</h1>
+            <p class="page-subtitle">Selected papers from my research</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="pub-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="mlsys">ML Systems</button>
+                    <button class="filter-btn" data-filter="distributed">Distributed</button>
+                    <button class="filter-btn" data-filter="swe">Software Eng</button>
+                </div>
+
+                <div class="publications-list">
+                    <article class="publication" data-category="mlsys distributed">
+                        <div class="pub-badge">Best Paper</div>
+                        <h3 class="pub-title">ElasticTrain: Dynamic Resource Scaling for Distributed Deep Learning</h3>
+                        <p class="pub-authors">Alex Chen, Wei Zhang, Sarah Johnson, and Raj Patel</p>
+                        <p class="pub-venue">Proceedings of the 29th ACM Symposium on Operating Systems Principles (<strong>SOSP 2025</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">Slides</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="mlsys">
+                        <h3 class="pub-title">FlashServe: Sub-millisecond Latency Inference for Transformer Models</h3>
+                        <p class="pub-authors">Mohammed Ali, Alex Chen, and Yuki Tanaka</p>
+                        <p class="pub-venue">Proceedings of Machine Learning and Systems (<strong>MLSys 2025</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="distributed">
+                        <h3 class="pub-title">CodedShuffle: Communication-Efficient Data Shuffling for Distributed SGD</h3>
+                        <p class="pub-authors">Liu Wei, Anna Brown, Alex Chen, and Tom Anderson</p>
+                        <p class="pub-venue">IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS 2024</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="swe">
+                        <h3 class="pub-title">AutoCheck: Property-Based Testing for Distributed Systems</h3>
+                        <p class="pub-authors">Emily Davis, Alex Chen, and Priya Sharma</p>
+                        <p class="pub-venue">Proceedings of the 46th ACM/IEEE International Conference on Software Engineering (<strong>ICSE 2024</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="mlsys distributed">
+                        <h3 class="pub-title">HydroScale: Elastic GPU Clusters for Deep Learning Workloads</h3>
+                        <p class="pub-authors">Alex Chen, James Wilson, and Michael Chen</p>
+                        <p class="pub-venue">Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation (<strong>NSDI 2024</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">Slides</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="mlsys">
+                        <h3 class="pub-title">Memory-Efficient Training of Large Neural Networks via Activation Compression</h3>
+                        <p class="pub-authors">Lisa Wong, Liu Wei, and Alex Chen</p>
+                        <p class="pub-venue">Advances in Neural Information Processing Systems 36 (<strong>NeurIPS 2023</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="distributed">
+                        <h3 class="pub-title">Fault-Tolerant All-Reduce for Large-Scale Training Clusters</h3>
+                        <p class="pub-authors">Raj Patel, Alex Chen, and Yuki Tanaka</p>
+                        <p class="pub-venue">Proceedings of the 28th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (<strong>PPoPP 2023</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="swe">
+                        <h3 class="pub-title">VeriML: Formal Verification of Distributed ML Training Pipelines</h3>
+                        <p class="pub-authors">Alex Chen and Emily Davis</p>
+                        <p class="pub-venue">Proceedings of the 35th IEEE International Symposium on Software Reliability Engineering (<strong>ISSRE 2023</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="mlsys distributed">
+                        <div class="pub-badge">Invited</div>
+                        <h3 class="pub-title">The Future of ML Infrastructure: Challenges and Opportunities</h3>
+                        <p class="pub-authors">Alex Chen</p>
+                        <p class="pub-venue">Communications of the ACM (<strong>CACM 2022</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+
+                    <article class="publication" data-category="distributed">
+                        <h3 class="pub-title">ParSched: Parallel Task Scheduling for Heterogeneous Clusters</h3>
+                        <p class="pub-authors">James Wilson, Alex Chen, and Michael Chen</p>
+                        <p class="pub-venue">Proceedings of the 19th European Conference on Computer Systems (<strong>EuroSys 2022</strong>)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link">PDF</a>
+                            <a href="#" class="pub-link">Code</a>
+                            <a href="#" class="pub-link">BibTeX</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dr. Alex Chen. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+                <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
